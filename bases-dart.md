@@ -123,6 +123,34 @@ Set foo = <String>{'first', 'second', 'third'};
 Map foo = <String, int>{'a': 1, 'b': 2};
 ```
 
+Fonctions (basiques) sur les collections :
+
+ - les listes ([documentation](https://api.dartlang.org/stable/2.7.0/dart-core/List-class.html))
+    ```dart
+    var l = [1, 2, 3];
+    print(l[0]);
+    l[0] = 5;
+    print(l.length);
+    l.add(5);
+    l.removeAt(0);
+    ```
+ - les set ([documentation](https://api.dartlang.org/stable/2.7.0/dart-core/Set-class.html))
+    ```dart
+    var s = {'hello', 'world'};
+    print(s.length);
+    print(s.contains('hello'));
+    s.add('hello');
+    s.remove('world');
+    ```
+  - les map ([documentation](https://api.dartlang.org/stable/2.7.0/dart-core/Map-class.html))
+    ```dart
+    var m = {'a': 1, 'b': 2};
+    print(m.length);
+    print(m['a']);
+    m['c'] = 5;
+    m.remove('c');
+    ```
+
 ### Afficher du texte
 
 On peut utiliser la fonction `print` (aussi utilisable avec Flutter) :

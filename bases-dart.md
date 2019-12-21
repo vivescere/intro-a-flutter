@@ -6,7 +6,7 @@ Ce document ne présente que de la syntaxe, et très peu de fonctions et librair
 
 **Attention : ce guide est fait pour ceux qui ont déjà programmé dans des langages orientés objet. Il est fait pour apprendre une nouvelle syntaxe, pas (ou très peu) des nouveaux concepts.**
 
-- [L'essentiel](#l'essentiel)
+- [L'essentiel](#lessentiel)
   + [Variables](#variables)
   + [Quelques types utiles](#quelques-types-utiles)
   + [Afficher du texte](#afficher-du-texte)
@@ -14,11 +14,11 @@ Ce document ne présente que de la syntaxe, et très peu de fonctions et librair
   + [Boucles](#boucles)
   + [Fonctions](#fonctions)
     - [Arguments nommés](#arguments-nommés)
-    - [Fonctions d'ordre supérieur et anonymes](#fonctions-d'ordre-supérieur-et-anonymes)
+    - [Fonctions d'ordre supérieur et anonymes](#fonctions-dordre-supérieur-et-anonymes)
   + [Égalité](#égalité)
   + [Les classes](#les-classes)
     - [Constructeurs nommés](#constructeurs-nommés)
-    - [Modificateurs d'accès](#modificateurs-d'accès)
+    - [Modificateurs d'accès](#modificateurs-daccès)
     - [Champs finaux](#champs-finaux)
     - [Héritage](#héritage)
     - [Const](#const)
@@ -27,11 +27,11 @@ Ce document ne présente que de la syntaxe, et très peu de fonctions et librair
 - [Pour aller plus loin](#pour-aller-plus-loin)
   + [Variables et Méthodes statiques](#variables-et-méthodes-statiques)
   + [Méthodes pour gérer les variables nulles](#méthodes-pour-gérer-les-variables-nulles)
-  + [Fonctions : Getters & Setters](#fonctions-:-getters-&-setters)
+  + [Fonctions : Getters & Setters](#fonctions--getters--setters)
   + [Les énumérations](#les-énumérations)
   + [Les mixins](#les-mixins)
   + [Les constructeurs factory](#les-constructeurs-factory)
-  + [Les classes abstraites & Interfaces](#les-classes-abstraites-&-interfaces)
+  + [Les classes abstraites & Interfaces](#les-classes-abstraites--interfaces)
   + [Les types génériques](#les-types-génériques)
   + [Les packages](#les-packages)
 

@@ -6,6 +6,8 @@ Ce document ne présente que de la syntaxe, et très peu de fonctions et librair
 
 **Attention : ce guide est fait pour ceux qui ont déjà programmé dans des langages orientés objet. Il est fait pour apprendre une nouvelle syntaxe, pas (ou très peu) des nouveaux concepts.**
 
+Vous pouvez essayer du code dart sur [dartpad.dev](https://dartpad.dev).
+
 - [L'essentiel](#lessentiel)
   + [Variables](#variables)
   + [Quelques types utiles](#quelques-types-utiles)
@@ -270,8 +272,8 @@ print(a == b); // true
 Si on veut vérifier que deux objets sont les mêmes, on peut utiliser la fonction `identical` :
 
 ```dart
-var a = 'foo';
-var b = 'foo';
+var a = Object();
+var b = Object();
 print(identical(a, a)); // true
 print(identical(a, b)); // false
 ```
